@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Peets production test suite">
+  
+    <listeners>
+        <listener class-name="com.qa.extentlistner.extentreportlistner"/>
+    </listeners>
+      <test name="Peets production test">
+      
+    <classes>
+       <class name="com.qa.testcases.LoginPageTest"/>
+      <class name="com.qa.testcases.Homepagetest"/>
+      <class name="com.qa.testcases.seachpagetest"/>
+     <class name="com.qa.testcases.Coffeepagetest"/>
+     
+    </classes>
+  </test> 
+</suite> 
